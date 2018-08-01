@@ -34,6 +34,40 @@ td {
   padding: 0px 15px;
 }
 
+#sidebar {
+  background-color: #424B54;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color:#788188;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+#page-content {
+  margin-left: 100px;
+}
+
 .container {
   width: 550px;
   margin: 20px auto;
@@ -64,6 +98,10 @@ td {
 
 .btn-marron:hover {
   opacity: 0.7;
+}
+
+.btn-youtube:hover {
+  opacity: 0.8;
 }
 
 .card-white {
@@ -109,7 +147,7 @@ td {
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 600px;
+    width: 500px;
   }
 }
 @media (max-width: 720px) {
@@ -123,6 +161,13 @@ td {
   .container {
     width: 300px;
   }
+
+  td {
+    display: inline;
+    text-align: center;
+  }
+
+  .img-widht {
+    text-align: center;
+  }
 }
-
-

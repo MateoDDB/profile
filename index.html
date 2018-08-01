@@ -11,87 +11,108 @@
     </head>
 
   <body>
-    <div class="container text-center home-card">
-      <img src="images/image1.jpg" class="img-circle" alt="profil">
-      <h1>Mateo Ceron Arana</h1>
-      <h2>Chargé de communication</h2>
-      <p>Chargé de communication chez Createch ingenierie depuis 1 an.
-      <br>
-      Creation de la business unit en septembre prochain en charge du développement web dans la cybersécurité.</p>
-      <a class="btn-marron text-decoration" href="http://createch-ingenierie.com/" target="_blank">Createch</a>
-    </div>
-
-    <div class="container text-center card-white">
-      <ul id="list-inline">
+    <div id="sidebar">
+      <ul>
         <li>
-          <a class="link-decoration text-decoration" href="#">
-            <i class="fab fa-facebook-f"></i> Facebook
+          <a href="#summary">
+            <i class="fas fa-question-circle"></i>
           </a>
         </li>
         <li>
-          <a class="link-decoration text-decoration" href="#">
-            <i class="fab fa-linkedin-in"></i> Linkedin
+          <a href="#favorite-musics">
+            <i class="fas fa-music"></i>
           </a>
         </li>
         <li>
-          <a class="link-decoration text-decoration" href="#">
-            <i class="fab fa-twitter"></i> Twitter
+          <a href="#footer">
+            <i class="fas fa-file"></i>
           </a>
         </li>
       </ul>
     </div>
+    <div id="page-content">
+      <div id="summary" class="container text-center home-card">
+        <img src="images/image1.jpg" class="img-circle" alt="profil">
+        <h1>Mateo Ceron Arana</h1>
+        <h2>Chargé de communication</h2>
+        <p>Chargé de communication chez Createch ingenierie depuis 1 an.
+        <br>
+        Creation de la business unit en septembre prochain en charge du développement web dans la cybersécurité.</p>
+        <a class="btn-marron text-decoration" href="http://createch-ingenierie.com/" target="_blank">Createch</a>
+      </div>
 
-    <div class="container card-white">
-      <h2 class="text-center">Top 3 : Musiques</h2>
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <img class="img-width" src="images/chan-chan.jpg" alt="Chan-Chan">
-            </td>
-            <td>
-              <h3>1997 - Chan Chan</h3>
-              <p>De Alto Cedro voy para Marcané
-              <br>
-              Llego a Cueto, voy para Mayarí
-              <br>
-              De Alto Cedro voy para Marcané
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img class="img-width" src="images/tnt.jpg" alt="tnt">
-            </td>
-            <td>
-              <h3>2012 - Sabre Olvidar</h3>
-              <p>Sufro mucho al saber que no te has muerto
-              <br>
-              Y al mirar aquel retrato (no te has muerto)
-              <br>
-              En tu rostro yo comprendo
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img class="img-width" src="images/come-as.jpg" alt="come">
-            </td>
-            <td>
-              <h3>1991 - Come as you are</h3>
-              <p>Come as you are, as you were, as I want you to be
-              <br>
-              As a friend, as a friend, as and old enemy
-              <br>
-              Take your time, hurry up, the choice is yours, don't be late </p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="container card-white text-center">
-      <h2>About this page</h2>
-      <p>This page has been coded during the FullStack program @LeWagon.</p>
+      <div class="container text-center card-white">
+        <ul id="list-inline">
+          <li>
+            <a class="link-decoration text-decoration" href="#">
+              <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+          </li>
+          <li>
+            <a class="link-decoration text-decoration" href="#">
+              <i class="fab fa-linkedin-in"></i> Linkedin
+            </a>
+          </li>
+          <li>
+            <a class="link-decoration text-decoration" href="#">
+              <i class="fab fa-twitter"></i> Twitter
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="favorite-musics" class="container card-white">
+        <h2 class="text-center">Top 3 : Musiques</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <a href="https://www.youtube.com/watch?v=SCJBYZoxnzA" target="_blank" class="btn-youtube"><img class="img-width" src="images/chan-chan.jpg" alt="Chan-Chan"></a>
+              </td>
+              <td>
+                <h3>1997 - Chan Chan</h3>
+                <p>De Alto Cedro voy para Marcané
+                <br>
+                Llego a Cueto, voy para Mayarí
+                <br>
+                De Alto Cedro voy para Marcané
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://www.youtube.com/watch?v=gEmc3oC41Ds" target="_blank" class="btn-youtube"><img class="img-width" src="images/tnt.jpg" alt="tnt"></a>
+              </td>
+              <td>
+                <h3>2012 - Sabre Olvidar</h3>
+                <p>Sufro mucho al saber que no te has muerto
+                <br>
+                Y al mirar aquel retrato (no te has muerto)
+                <br>
+                En tu rostro yo comprendo
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://www.youtube.com/watch?v=vabnZ9-ex7o" target="_blank" class="btn-youtube"><img class="img-width" src="images/come-as.jpg" alt="come"></a>
+              </td>
+              <td>
+                <h3>1991 - Come as you are</h3>
+                <p>Come as you are, as you were, as I want you to be
+                <br>
+                As a friend, as a friend, as and old enemy
+                <br>
+                Take your time, hurry up, the choice is yours, don't be late </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="footer" class="container card-white text-center">
+        <h2>About this page</h2>
+        <p>This page has been coded during the FullStack program @LeWagon.</p>
+      </div>
     </div>
   </body>
 </html>
