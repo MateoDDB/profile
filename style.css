@@ -153,13 +153,17 @@ td {
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 500px;
+    width: 400px;
   }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
+  #page-content {
+    margin-left: 120px;
+  }
+
   .container {
-    width: 300px;
+    width: 200px;
   }
 
   td {
@@ -167,7 +171,7 @@ td {
     text-align: center;
   }
 
-  .img-widht {
-    text-align: center;
+  .btn-youtube {
+    margin-left: 25px;
   }
 }
